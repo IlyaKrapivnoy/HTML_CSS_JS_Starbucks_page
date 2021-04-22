@@ -30,6 +30,24 @@ header .logo {
     position: relative;
     max-width: 80px;
 }
+.toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url(images/menu.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(1);
+}
+.toggle.active {
+    background: url(images/close.png);
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: invert(1);
+}
 header ul {
     position: relative;
     display: flex;
